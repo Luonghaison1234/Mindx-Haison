@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        margin: 0;
+        background: #f6f6f6;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 40px auto;
+        background: #fff;
+        border-radius: 16px;
+        display: flex;
+        padding: 40px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      }
+      .form-box {
+        width: 45%;
+      }
+      h1 {
+        margin-bottom: 30px;
+      }
+      .input {
+        width: 100%;
+        padding: 14px 16px;
+        margin-bottom: 16px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        font-size: 15px;
+      }
+      .hint {
+        color: #d9534f;
+        font-size: 14px;
+        margin-bottom: 16px;
+      }
+      .btn {
+        background: #b22222;
+        color: #fff;
+        border: none;
+        padding: 14px 24px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 15px;
+      }
+      .btn:hover {
+        opacity: 0.9;
+      }
+      .image-box {
+        width: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .image-box img {
+        max-width: 100%;
+      }
+      @media (max-width: 900px) {
+        .container {
+          flex-direction: column;
+        }
+        .form-box,
+        .image-box {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1>Login</h1>
+        <input class="input" type="text" placeholder="Username" />
+        <input class="input" type="password" placeholder="Password" />
+        <div class="hint">Chưa có tài khoản?</div>
+        <button class="btn">Đăng nhập</button>
+      </div>
+      <div class="image-box">
+        <img
+          src="https://tse1.mm.bing.net/th/id/OIP.FlXY5Blj82K3xzDhTj0IVwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+          alt="illustration"
+        />
+      </div>
+    </div>
+  </body>
+</html>
