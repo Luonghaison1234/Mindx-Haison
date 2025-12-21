@@ -1,0 +1,18 @@
+<input type="text" id="input" />
+<button id="button">Them</button>
+<ul id="ten"></ul>
+
+<script>
+  button.onclick = function () {
+    let input = document.getElementById("input");
+    let button = document.getElementById("button");
+    let ten = input.value;
+    if (ten == "") {
+      alert("Vui long nhap ten");
+    }
+    let li = document.createElement("li");
+    li.innerHTML = ten;
+    let ul = document.getElementById("ten");
+    ul.appendChild(li);
+  };
+</script>
