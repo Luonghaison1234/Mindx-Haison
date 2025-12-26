@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avengers</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: rgb(24, 23, 23);
+      }
+      .image-box {
+        width: 1343px;
+        height: 700px;
+
+        background-image: url("https://th.bing.com/th/id/OIP.0sL7kz85Olcrwk_GIrClYAHaF7?w=225&h=180&c=7&r=0&o=7&pid=1.7&rm=3");
+        background-size: cover;
+
+        background-color: rgba(0, 0, 0, 0.4);
+        background-blend-mode: darken;
+
+        justify-content: center;
+        align-items: center;
+      }
+
+      .image-box h2 {
+        color: white;
+        font-size: 48px;
+      }
+
+      h1 {
+        text-align: center;
+        color: rgb(250, 50, 50);
+      }
+      img {
+        width: 1343px;
+        height: 700px;
+        opacity: 0.65;
+      }
+      .semi {
+        background-color: rgba(255, 255, 255, 0, 5);
+        padding: 20px;
+      }
+      h2 {
+        margin-left: 50px;
+      }
+      p {
+        margin-left: 50px;
+        color: white;
+        font-size: 20px;
+      }
+      button {
+        margin-left: 50px;
+        height: 30px;
+        width: 100px;
+        background-color: black;
+        color: white;
+      }
+      a {
+        color: rgb(255, 255, 255);
+        margin-left: 50px;
+        text-decoration: none;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-box">
+      <h1>MindX Cinema</h1>
+      <a href="index.html">Back</a>
+      <h2>Avengers</h2>
+      <div style="width: 900px">
+        <p>
+          The Avengers brings together Earth mightiest heroes-Iron Man, Captain
+          America, Thor, Hulk, Black Widow, and Hawkeye—as they unite for the
+          first time to stop Loki from invading Earth. Despite clashing
+          personalities, the team must learn to work together to save the world
+          from a powerful alien threat.
+        </p>
+      </div>
+      <button id="watch">Watch Now</button>
+    </div>
+    <script>
+      document.getElementById("watch").onclick = function () {
+        window.location.href = "watch4.html";
+      };
+    </script>
+  </body>
+</html>
